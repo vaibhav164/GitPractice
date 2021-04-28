@@ -1,1 +1,1 @@
-# GitPreactice
+# GitPractice
