@@ -97,3 +97,19 @@ create the .gitignore file use gitbash after creating the gitignore file just en
 
 1. to do so run command `git branch --merged` this will the that is the branch got merged to each other or not.
 2. syntax to delete the branch is `git branch -d branch_name`
+3. git command to delete a branch from remote repo `git push origin --delete branch_name`.
+
+## UNdo the code :-
+
+if we had codoed and we feel that we want to undo all the change from the file and want the earlier code use command `git checkout file_name`.
+
+## Update the last commit message:-
+
+if we want to edit the message of last commited file of the project use command
+`git commit --amend -m 'new commit msg'` this will change the last commit msg and this it will cause change in the git hash as well as editing the git msg basicaly changes the git history.
+
+## add more file to the commited repo after commit :-
+
+# ?
+
+if we ha already commited a repo but want to add more file to that then it can be done using
