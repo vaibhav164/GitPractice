@@ -27,6 +27,13 @@ and at the end add your github email address
 Now command git push -u origin master
 here -u refers to upstream to make the pushing repo of remote as default i.e., after this command we can just type git push to push our local repo to remote.
 
+# git pull:-
+
+this will save all the changes happed to remote repo into our local repo snice the last time we had push our repo to the Remote.
+
+**git clone:-**
+the syntax is `git clone <URL> <where to clones>`
+
 # Branching:-
 
 to make branch commadn is
@@ -62,3 +69,33 @@ the above command will push new branch to the remote repo of name apple
 7. `git add *` this command is not that good to be used as it will add the file that are shown in Directory i.e it will not be able to track deleted and Hidden files.
 
 - the command in sub dirextory will add all the staged files except the deleted and hidden file of that perticular directory not of it further sub directory.
+
+# Git Help
+
+1. to get help regarding any topic of git type simple command git --help
+2. to get help for specific keyword type `git config --help` or `git help config` this will show the list about config.
+
+## Git ignore:-
+
+1. For the people to not view out personal referance files of our project we can arrange the file system which gets ignored by git using git ignore command
+   `touch .gitignore`
+   the above command will create a file as .gitignore file and then can be used to work
+
+to make file ignored by git type simply the name of the file into thaht file and the git will ignore that file .
+
+create the .gitignore file use gitbash after creating the gitignore file just enter the name of the file and git will ignore and will not be pushed to your remote repo.
+
+## Git Reset:-
+
+1. this command is used to reset the file from the staging area.
+
+**git remote -v** this will tell us the location of the local and its respective remote repo.
+
+**git branch -a** this will list the all branches of local and its respective repo.
+
+# Deleting the merged Branch to the maste/main:-
+
+1. to do so run command `git branch --merged` this will the that is the branch got merged to each other or not.
+2. syntax to delete the branch is `git branch -d branch_name`
+
+**Hello bha**
