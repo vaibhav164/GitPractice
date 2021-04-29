@@ -110,6 +110,13 @@ if we want to edit the message of last commited file of the project use command
 
 ## add more file to the commited repo after commit :-
 
-# ?
-
 if we ha already commited a repo but want to add more file to that then it can be done using
+`git commit --amend` by this it should work but didn't for me.
+
+the select edit in window instruction and after type **:** and **wq** and press enter to make it work and this will also change the git hash .
+
+# Edit commit in wrong branch:-
+
+## to brought the commit to other branch:-
+
+use concept of Cherrypick for this fist copy ths hash of the commit that is to be transfered and then chackout from the branch to the branchi in whick you want to insert that copied commit and then add command `git cherypick <hash value of the commit>`
