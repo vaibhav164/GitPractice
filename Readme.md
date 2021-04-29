@@ -97,3 +97,4 @@ create the .gitignore file use gitbash after creating the gitignore file just en
 
 1. to do so run command `git branch --merged` this will the that is the branch got merged to each other or not.
 2. syntax to delete the branch is `git branch -d branch_name`
+3. git command to delete a branch from remote repo `git push origin --delete branch_name`.
