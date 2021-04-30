@@ -128,4 +128,44 @@ use concept of Cherrypick for this fist copy ths hash of the commit that is to b
 - **git reset --soft** this will reset the commit we did but will save the changes that where performed.
 - **git reset** this will reset the commit and also unstage the changes that where made.
 
--**git reset --hard** this will completely wipe out the commit including the changes that where made.
+-**git reset --hard** this will completely wipe out the commit including the changes that where made. this reverse all the commit or wipe it out from the earlier commit except untacked files such as .gitignore.
+
+To completely wipe the tracked or untracked file use command
+`git clean -df` this will clean all the untracked files here in -df d stands for direactory an f for files.
+
+## git reflog
+
+the command `git reflog ` will show you the command is done on the repo
+
+![Ref Log Example](./reflog)
+
+## Undo the reset :-
+
+to do this use command `git checkout <hasvalue from reflog of before the reset>`
+
+but these reset files are retrived but for temporery basis whenever the git garbage collector will run it will remove to so to save it make a branch from that incident to same the undo of reset of it.
+
+# git revert :-
+
+it is used when we realy want to reset some commits but other people fromteam hai pulled it earliarly for this condition use git revert it crets a new commit to reverse the prvious commit by this wawe do not disturb the history of git remote repo.
+
+its syntax is `git revert <has value ofthe commit which needs to be Undo>`
+
+## Git diff between two different commits
+
+syntax for it is as `git diff <hash of one commit> <hash of other commit>` this will shows the difference between the two different commits.
+
+# git Stash:-
+
+it used when we are not sure about whethere we should commit the change or need it wait further
+using this we can save the change for temporary and can come back when feel require to commit and till then we can go further for development.
+syntax `git stash save "messange whatever you wana type"`
+after doinf this we can switch to other branch and work on other branch without commiting this stash one.
+
+**git stash list** this command will provide the list of stash performed.
+
+once we had done with our work and want to apply our stash to do it use command as
+**git stash apply stash@{0}** this will apply the stash of index number 0 here stash@{0} is representing stash index number.
+
+and if wana reset it again use command `git checkout -- .`
+**remove a saved stash:-** for this apply command `git stash pop` this will grab a very first stash of stash list.
