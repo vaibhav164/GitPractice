@@ -1,14 +1,13 @@
 # GitPractice
 
-## Bbasic Commands:-
+---
+
+## Basic Commands:-
 
 1. **clone** it is used to clone repo from Remote directory to your local system to use or further edit it.
 2. **add** use to add the edited file into staging area.
-3. **commit** to save the edited changes of filof local system.
+3. **commit** to save the edited changes of file of local system.
 4. **push** upload the commited file to remote Repository.
-5. Download changes from remote repo to your local machine.
-
----
 
 > Keep Hus
 
@@ -99,6 +98,10 @@ create the .gitignore file use gitbash after creating the gitignore file just en
 2. syntax to delete the branch is `git branch -d branch_name`
 3. git command to delete a branch from remote repo `git push origin --delete branch_name`.
 
+# Deleting a branch which is not merged:-
+
+1. to do so use command `git branch -D branch_name`.
+
 ## UNdo the code :-
 
 if we had codoed and we feel that we want to undo all the change from the file and want the earlier code use command `git checkout file_name`.
@@ -169,3 +172,7 @@ once we had done with our work and want to apply our stash to do it use command 
 
 and if wana reset it again use command `git checkout -- .`
 **remove a saved stash:-** for this apply command `git stash pop` this will grab a very first stash of stash list.
+
+if we want to remove all stash of the list use command as `git stash clear`
+
+**git log --oneline** this command will list of all commits of the branch and with its only commit messages not with other details.
