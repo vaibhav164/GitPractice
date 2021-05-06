@@ -97,3 +97,19 @@ return (
     Roll No-21 <br>
     Address- Mumbai, India
 </details>
+
+9. Create a DropDown feature in Your code or text:-
+<details>
+<summary>Click to Drop it down</summary>
+<pre>
+import React from "react"
+import {StyleSheet, View, Text} fromm "react-native"
+const App =()=>{
+    return(
+        <View>
+            <Text>Hello World</Text>
+        </View>
+    )
+}
+export default App;
+</pre>
