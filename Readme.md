@@ -1,6 +1,6 @@
 # GitPractice
 
-## Bbasic Commands:-
+## Basic Commands:-
 
 1. **clone** it is used to clone repo from Remote directory to your local system to use or further edit it.
 2. **add** use to add the edited file into staging area.
