@@ -1,7 +1,10 @@
 # GitPractice
 
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> a28acd9be8edc631f0c7f6df86036d6798c3fa98
 ## Basic Commands:-
 
 1. **clone** it is used to clone repo from Remote directory to your local system to use or further edit it.
@@ -97,6 +100,7 @@ create the .gitignore file use gitbash after creating the gitignore file just en
 1. to do so run command `git branch --merged` this will the that is the branch got merged to each other or not.
 2. syntax to delete the branch is `git branch -d branch_name`
 3. git command to delete a branch from remote repo `git push origin --delete branch_name`.
+<<<<<<< HEAD
 
 # Deleting a branch which is not merged:-
 
@@ -176,3 +180,5 @@ and if wana reset it again use command `git checkout -- .`
 if we want to remove all stash of the list use command as `git stash clear`
 
 **git log --oneline** this command will list of all commits of the branch and with its only commit messages not with other details.
+=======
+>>>>>>> a28acd9be8edc631f0c7f6df86036d6798c3fa98
