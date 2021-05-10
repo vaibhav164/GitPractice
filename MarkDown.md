@@ -81,3 +81,35 @@ return (
 
 - [x] Task 1
 - [] Task 2
+
+## Creating Tables:-
+
+| A        | B      | c    |
+| :------- | :----- | :--- |
+| Apple    | Ball   | Cat  |
+| Aircraft | Baloon | Cake |
+
+## Onclick Detail tages:-
+
+<details>
+    <summary>About</summary>
+    Author Name- Vaibhav Singh <br>
+    Roll No-21 <br>
+    Address- Mumbai, India
+</details>
+
+9. Create a DropDown feature in Your code or text:-
+<details>
+<summary>Click to Drop it down</summary>
+<pre>
+import React from "react"
+import {StyleSheet, View, Text} fromm "react-native"
+const App =()=>{
+    return(
+        <View>
+            <Text>Hello World</Text>
+        </View>
+    )
+}
+export default App;
+</pre>
